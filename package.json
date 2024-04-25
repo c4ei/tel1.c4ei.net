@@ -1,0 +1,26 @@
+{
+  "name": "tel1.c4ei.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "grammy": "^1.22.4",
+    "mysql2": "^3.9.7",
+    "sync-mysql": "^3.0.1",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "tel1.c4ei.net",
+  "license": "ISC"
+}
